@@ -5,7 +5,7 @@ class Commandes:
     def __init__(self) -> None:
         pass
     
-    def lectureInt(choix, choixUtilisateur):
+    def lectureInt(self,choix, choixUtilisateur):
         entree = -1
         
         
@@ -18,24 +18,26 @@ class Commandes:
         
         return entree
     
-    def nettoyerConsole():
-        os.system('cls')
+    def nettoyerConsole(self):
+        #os.system('cls')
+        for i in range (10):
+            print('\n')
         
-    def afficherSeparateur(n):
+    def afficherSeparateur(self,n):
         sepa = ""
         for i in range(n):
             sepa += "-"
         print(sepa, end='')
         
-    def afficherEntete(nombre, texte):
-        Commandes.afficherSeparateur(nombre)
+    def afficherEntete(self, nombre, texte):
+        Commandes.afficherSeparateur(self, nombre)
         print(texte, end='')
-        Commandes.afficherSeparateur(nombre)
+        Commandes.afficherSeparateur(self, nombre)
     
-    def stopProgramme():
+    def stopProgramme(self):
         input("Appuyez sur Entrée pour continuer : ")   
         
-    def debugScanner():
+    def debugScanner(self):
         input()
         
         

@@ -17,7 +17,19 @@ class Personnage:
     
     def __init__(self):
         self.Com = newCom.Commandes()
-        self.maxHp, self.hp, self.mana, self.maxMana, self.argent = 0
+        self.maxHp = 0
+        self.hp = 0
+        self.mana = 0
+        self.maxMana = 0
+        self.argent = 0
+
+        #A modifier
+        self.name = ""
+        self.classe = ""
+        self.inventaire = ""
+        #Fin modifs
+
+
         self.attaques = []
     
     def getManaMax(self):
@@ -49,6 +61,34 @@ class Personnage:
             self.hp = self.maxHp
         else:
             self.hp += HP
+
+    def getXp(self):
+        return self.exp
+    
+    def setXp(self, XP):
+        self.exp = XP
+
+    def getName(self):
+        return self.name
+
+    def getClasse(self):
+        return self.classe
+
+    def getInventaire(self):
+        return self.inventaire
+
+    def setInventaire(self, Inventaire):
+        self.invetaire = Inventaire
+
+    def getArgent(self):
+        return self.argent
+
+    def setArgent(self, Argent):
+        self.argent = Argent
+
+    #def attaqueEnnemi
+
+    #def defense
             
         
         
