@@ -5,6 +5,7 @@ import Histoire.Menu
 import Commandes.Commandes as test
 import Joueur.Joueur as joueur
 import Equipements.Equipement as equip
+import Classes.Classes as classes
 
 class Main:
     
@@ -31,6 +32,10 @@ class Main:
         NewEquip = equip.Equipement()
         Arc = equip.ArcLong()
         print(Arc.getDegatP())
+        print(Arc.getNom())
+        
+        #Test = classes.Classes()
+        
 
         
         
