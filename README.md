@@ -10,6 +10,7 @@ The goal of this project is to transcribe a Java Role Play Project in Python wit
 **Update list :**
 - 03/07/2022 : Creating the project and begin with some easy things for the moment.
 - 04/07/2022 : Updating the code with new parts such as Equipements, Player 
+- 05/07/2022 : Updating the code with new parts such as Classes, Attacks and finish Equipement
 
 
 # Français
@@ -22,3 +23,4 @@ Le but de celui-ci est de retranscrire un jeu de rôle initialement développé 
 **Liste des mises à jour :**
 - 03/07/2022 : Création du projet et début de celui-ci avec un premier travail de POO en Python.
 - 04/07/2022 : Mise à jour du code avec de nouvelles parties comme la création des Equipements et du Joueur.
+- 05/07/2022 : Finalisation des Equipements, début du travail sur les classes et les attaques par la même occasion.
